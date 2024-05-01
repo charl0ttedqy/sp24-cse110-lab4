@@ -35,6 +35,13 @@ function returns the discounted array which was declared using the keyword const
 B. student['Grad Year']\
 C. student.greeting()\
 D. student['Favorite Teacher'].name\
-E. student.courseLoad[0];\
+E. student.courseLoad[0]
 
-13. 
+13. A. 32 (string concatenation)\
+    B. 1 (converts string to int because typecasting with subtraction performs subtraction)\
+    C. 3 (converts null to 0 and perform addition, so 3+0=3)\
+    D. 3null (string concatenation)\
+    E. 4 (converts true to 1 and perform addition, so 1+3=4)\
+    F. 0 (converts null to 0 and perform addition, so 0+0=0)\
+    G. 3undefined (string concatenation)\
+    H. NaN (converts undefined to NaN, so 3-NaN=NaN)
