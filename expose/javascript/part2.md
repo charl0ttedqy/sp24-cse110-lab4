@@ -55,4 +55,9 @@ E. student.courseLoad[0]
 
 15. '==' automatically performs type conversion and then compare the two variables, while '===' strictly performs comparison without any type conversion
 
-16. 
+16. see part2-question16.js
+
+17. [2,4,6]\
+function modifyArray passes in initial array [1,2,3] and function doSomething, which multiplies each term in initial array by 2 and stores the multiplied terms into newArray, function then returns newArray, which should be [2,4,6]
+
+18. see part2-question18.js
