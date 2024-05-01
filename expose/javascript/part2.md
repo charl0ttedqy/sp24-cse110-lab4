@@ -45,3 +45,14 @@ E. student.courseLoad[0]
     F. 0 (converts null to 0 and perform addition, so 0+0=0)\
     G. 3undefined (string concatenation)\
     H. NaN (converts undefined to NaN, so 3-NaN=NaN)
+
+14. A. true (converts '2' to 2 and compare, so true)\
+    B. false (string comparison, '12' comes before '2' alphabetically)\
+    C. true (converts '2' to 2 and compare, so true)\
+    D. false ('===' compares without any type conversion, so false)\
+    E. false (converts true to 1 and compare, so false)\
+    F. true (boolean(2) is non-zero, so it evaluates to true, comparing true to true without type conversion is true)
+
+15. '==' automatically performs type conversion and then compare the two variables, while '===' strictly performs comparison without any type conversion
+
+16. 
