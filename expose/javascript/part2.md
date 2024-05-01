@@ -31,8 +31,7 @@ line 12 logs 'length' which was declared using the keyword const to record the l
 11. [50, 100, 150]\
 function returns the discounted array which was declared using the keyword const, but since we are simply pushing values into the array instead of reassigning the variable to a new value, it does not raise any error and would correctly output the discounted array
 
-12.
-A. student.name\
+12. A. student.name\
 B. student['Grad Year']\
 C. student.greeting()\
 D. student['Favorite Teacher'].name\
