@@ -61,3 +61,10 @@ E. student.courseLoad[0]
 function modifyArray passes in initial array [1,2,3] and function doSomething, which multiplies each term in initial array by 2 and stores the multiplied terms into newArray, function then returns newArray, which should be [2,4,6]
 
 18. see part2-question18.js
+    
+19. 1\
+    4\
+    3\
+    2\
+1 is logged first immediately, then we log 2 with 1000 millisecond delay, after that we log 3 with 0 millisecond delay which means that it will be executed right after all other lines, finally we log 4 immediately. This means that 1 is printed first, 4 is printed second, 3 is printed third after all lines run, then 2 is printed at last due to the extra delay.
+
